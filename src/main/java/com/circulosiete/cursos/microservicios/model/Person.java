@@ -19,7 +19,7 @@ public class Person {
   // Debido a que en esta clase usamos la anotación @Builder
   @Tolerate
   public Person() {
-    log.info("Creando persona");
+    log.info("Creando persona cambio de código");
   }
 
   public static Person from(String id, String name, String email) {
