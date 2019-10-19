@@ -1,0 +1,39 @@
+Para probar
+
+En Windows:
+ gradlew.bat clean test jacocoTestReport
+
+En Linux/unix
+ ./gradlew clean test jacocoTestReport
+
+
+Ubicacion del reporte de pruebas
+
+{carpeta_proyecto}/build/reports
+
+
+Para poner a Gradle en modo continuo
+
+En Windows:
+ gradlew.bat test jacocoTestReport -t
+
+En Linux/unix
+ ./gradlew test jacocoTestReport -t
+
+
+Para ejecutar una sola prueba
+
+En Windows:
+ gradlew.bat -Dtest.single=PeopleServiceTests test jacocoTestReport -t
+
+En Linux/unix
+ ./gradlew -Dtest.single=PeopleServiceTests test jacocoTestReport -t
+
+
+
+
+
+
+
+
+
